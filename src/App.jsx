@@ -6,6 +6,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import ProjectCard from './components/ProjectCard'
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path='/contact' element = {<Contact/>} />        
         </Routes>
       </div>
+      
+      <Footer />
      </div>
     
   )

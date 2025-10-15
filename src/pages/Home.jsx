@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard";
 
 const Home = ()=>{
     return (
         <div>
-            <h1>Home page</h1>
+            <ProjectCard/>
         </div>
     )
 }
