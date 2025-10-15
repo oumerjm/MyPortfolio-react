@@ -1,14 +1,15 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = ()=>{
     return (
-        <div>
+        <div className="header">
             <img src="./Mylogo.png" alt="mylogo" />
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <NavLink to="/"><li>Home</li></NavLink>
+                <NavLink to="/about"><li>About</li></NavLink>
+                <NavLink to = "/projects"><li>Projects</li></NavLink>
+                <NavLink to = "/contact"><li>Contact</li></NavLink>
             </ul>
             <button>Learn more</button>
         </div>
