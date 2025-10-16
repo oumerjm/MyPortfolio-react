@@ -68,3 +68,104 @@ a.active{
   border-radius: 10px;
   max-width: 1000px;
 }
+.contact-form { 
+  font-family: 'arial', sans-serif;
+  height: 50vh;
+  width: 350px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.121);
+  padding: 25px;
+  border-radius: 10px;
+  
+}
+
+input{
+  width: 200px;
+  border-radius: 5px;
+  padding: 15px ;
+  margin: 15px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.129);
+  
+}
+textarea{
+  margin: 15px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.129);
+}
+.input-group{
+  display: flex;
+  align-items: cen;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #00adb5;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #05c6cf;
+}
+.about-section{
+  padding-left: 30px;
+}
+.image-container{
+  padding: 50px;
+  display: flex;
+  transform: rotate(20%);
+  transition: background 0.5s ease;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img:hover{
+  transform: rotate(30%);
+  background-color: rgb(112, 105, 95);
+}
+.home-button{
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  
+}
+.project-card-container{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.073);
+  width: 450px;
+  height: fit-content;
+  padding: 15px;
+  margin: 15px;
+}
+#myportfolio{
+  height: fit-content;
+  width: 350px;
+  box-shadow: 2px 2px 2px 2px;
+}
+.project-card-container h1{
+  margin: 10px;
+}
+.cards-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.projects-container{
+  text-align: center;
+  margin: 40px;
+}

@@ -1,14 +1,15 @@
 import React from "react";
 
-function ProjectCard(){
+function ProjectCard(props){
     return(
-        <div className="Hero-section">
-            <h1> Hi, I'm Oumer Jemal. </h1>
-            <p>A front-end developer passionate about crafting modern, responsive, and elegant web experiences.
-                I build digital products that are fast, intuitive, and user-focused.</p>
+       <div className="project-card-container">
+         <img src={props.image} alt="myportfolio " id="myportfolio" />
+         <h1>{props.title}</h1>
+         <p>{props.description}</p>
+         <p>Using {props.tool}</p>
 
-       
-        </div>
+         
+       </div>
     )
 }
 export default ProjectCard
